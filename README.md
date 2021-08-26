@@ -3,7 +3,7 @@ MPU9255 library for STM32 microcontrollers using I2C and HAL libraries. Will add
 
 # Functions
 
-... MPU9255_Init(I2C_HandleTypeDef); ...   Initializes the MPU by passing the I2C channel to the library, confirms the device ID and sets the registers to the required values.  
+~~~ MPU9255_Init(I2C_HandleTypeDef); ~~~ ...   Initializes the MPU by passing the I2C channel to the library, confirms the device ID and sets the registers to the required values.  
 
 MPU9255_Accel_Raw(MPU_DataStruct);  
 
